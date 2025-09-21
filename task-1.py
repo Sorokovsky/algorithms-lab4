@@ -6,7 +6,7 @@ def task(old_number: int = 0):
     if number != 0:
         task(number)
     square = sqrt(old_number)
-    if square.is_integer() and not (number == 0 and old_number == 0):
+    if square.is_integer():
         print(int(square), end=" ")
 
 
